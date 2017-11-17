@@ -1,0 +1,34 @@
+{
+	"name": "unusual-wikipedia",
+	"description": "List of unusual Wikipedia articles, taken from https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles",
+	"version": "0.0.0",
+	"keywords": [
+		"Wikipedia:Unusual_articles",
+		"unusual",
+		"wikipedia",
+		"wiki",
+		"articles"
+	],
+	"author": "Julius Tens <mail@juliustens.de>",
+	"homepage": "https://github.com/juliuste/unusual-wikipedia",
+	"repository": "juliuste/unusual-wikipedia",
+	"bugs": "https://github.com/juliuste/unusual-wikipedia/issues",
+	"main": "./index.js",
+	"files": "index.js",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.2",
+		"lodash.unionby": "^4.8.0",
+		"wikijs": "^4.5.0"
+	},
+	"devDependencies": {
+		"tape": "^4.7.0"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"prepare": "npm test"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"license": "ISC"
+}
