@@ -18,7 +18,7 @@
 	"dependencies": {
 		"cheerio": "^1.0.0-rc.2",
 		"lodash.unionby": "^4.8.0",
-		"wikijs": "^4.5.0"
+		"wikijs": "^5.2.1"
 	},
 	"devDependencies": {
 		"tape": "^4.7.0"
