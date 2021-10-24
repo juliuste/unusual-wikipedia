@@ -1,3 +1,5 @@
+# :warning: UNMAINTAINED
+
 # unusual-wikipedia
 
 List of [unusual Wikipedia articles](https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles).
